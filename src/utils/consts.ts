@@ -1,0 +1,6 @@
+export const SWAP_QUOTE_REFETCH_INTERVAL = 5000; // 5 seconds
+
+export const MAX_EXCHANGE_TOKEN_SIZE = "100000000000000000000000"; // 100,000 Tokens
+
+export const MIN_ROUNDED_VALUE = 0.001;
+export const DISPLAY_DECIMALS = 3;

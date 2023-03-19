@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-white hover:bg-primary px-3 py-1 border border-black border-opacity-20 rounded-3xl inline-flex items-center text-sm font-bold cursor-pointer disabled:cursor-not-allowed;
+}
+
+.active {
+  @apply bg-primary;
+}
